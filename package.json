@@ -4,9 +4,9 @@
   "description": "Minzza MD creted By DHEV X BEA",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
-    "stop": "pm2 stop wabot" 
-    "restart": "pm2 restart wabot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name minzza-md",
+    "stop": "pm2 stop minzza-md" 
+    "restart": "pm2 restart minzza-md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
